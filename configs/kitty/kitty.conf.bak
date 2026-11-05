@@ -1,0 +1,19 @@
+shell zsh
+editor nvim
+# font_family GoogleSansCode Nerd Font
+font_family GoMono Nerd Font
+font_size 11
+# font_size 18
+
+# window_padding_width 10 0
+window_padding_width 10
+
+confirm_os_window_close 0
+background_opacity 0.8
+
+# BEGIN_KITTY_THEME
+# Gruvbox Dark
+include current-theme.conf
+# END_KITTY_THEME
+
+
