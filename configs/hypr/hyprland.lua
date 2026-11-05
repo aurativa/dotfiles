@@ -7,7 +7,6 @@ require("scripts")
 hl.monitor({
     output   = "",
     mode     = "1920x1080@60",
-    -- mode     = "1366x768@60",
     position = "auto",
     scale    = "1",
 })
@@ -177,12 +176,6 @@ hl.window_rule({
 
     move  = "20 monitor_h-120",
     float = true,
-})
-hl.window_rule({
-    name    = "Minecraft",
-    match   = { class = [[^Minecraft.+]] },
-
-    opacity = "1 1 1"
 })
 hl.window_rule({
     name    = "gnome stuff",
