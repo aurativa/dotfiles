@@ -19,14 +19,6 @@ hl.bind(mainMod .. " + ALT + space", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + Space", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd(browser))
 
-local screenshotScript = "sh ~/Projects/shell/screenshot.sh"
-hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd(screenshotScript .. " silent"))
-hl.bind("SHIFT + Print", hl.dsp.exec_cmd(screenshotScript .. " instant"))
-hl.bind("Print", hl.dsp.exec_cmd(screenshotScript))
-
-local powermenuScript = "sh ~/Projects/shell/powermenu.sh"
-hl.bind(mainMod .. " + CTRL + P", hl.dsp.exec_cmd(powermenuScript))
-
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + D", hl.dsp.window.fullscreen({ mode = "maximized", action = "toggle" }))
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" }))

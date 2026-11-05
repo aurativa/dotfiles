@@ -2,6 +2,7 @@ local browser = "librewolf"
 
 require("binds")
 require("animations4")
+require("scripts")
 
 hl.monitor({
     output   = "",

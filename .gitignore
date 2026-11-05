@@ -1,0 +1,4 @@
+configs/nvim/nvim-pack-lock.json
+configs/hypr/scripts.lua
+configs/zsh/scripts.zsh
+configs/kitty/kitty.conf.bak
